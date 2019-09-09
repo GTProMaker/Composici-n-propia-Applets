@@ -155,9 +155,9 @@ public class ClaseIF {
         this.num1 = x;
         this.num2 = y;
         if (x != y) {
-            System.out.println("X es Diferente de y");
+           JOptionPane.showMessageDialog(null,+x+" es Diferente de "+y);
         } else {
-            System.out.println("X es Igual Y");
+            JOptionPane.showMessageDialog(null,"X es Igual Y");
         }
 
     }
@@ -165,19 +165,19 @@ public class ClaseIF {
     public void SetOr(int x) {
         this.num1 = x;
         if (x > 0 || x < 10) {
-            System.out.println("X esta entre 0 y 10");
+            JOptionPane.showMessageDialog(null,+x+" esta entre 0 y 10");
         } else {
-            System.out.println("X no esta dentro 0 y 10");
+            JOptionPane.showMessageDialog(null,+x+" no esta dentro 0 y 10");
         }
 
     }
 
     public void Setand(int x) {
         this.num1 = x;
-        if (x > 0 && x < 10) {
-            System.out.println("X esta entre 0 y 10");
+        if (x >0 && x <11) {
+            JOptionPane.showMessageDialog(null,+x+" esta entre 0 y 10");
         } else {
-            System.out.println("X no esta dentro 0 y 10");
+            JOptionPane.showMessageDialog(null,+x+" no esta dentro 0 y 10");
         }
 
     }
