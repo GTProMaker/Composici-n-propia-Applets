@@ -112,7 +112,7 @@ public class IF {
                         case 2: {
                             String X;
                             int x;
-                            X = JOptionPane.showInputDialog("Ingrese el Valor del Número al que desea sacarle la raiz cuadrada");
+                            X = JOptionPane.showInputDialog("Ingrese el Valor del dato Número 1: ");
                             x = Integer.parseInt(X);
                             condicional.SetOr(x);
                             break;
@@ -120,7 +120,7 @@ public class IF {
                         case 3: {
                             String X;
                             int x;
-                            X = JOptionPane.showInputDialog("Ingrese el Valor del Número al que desea sacarle la raiz cuadrada");
+                            X = JOptionPane.showInputDialog("Ingrese el Valor del dato Número 1: ");
                             x = Integer.parseInt(X);
                             condicional.Setand(x);
                             break;
